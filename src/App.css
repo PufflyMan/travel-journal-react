@@ -1,0 +1,10 @@
+* {
+  box-sizing: border-box;
+}
+
+#first-header {
+  background-color: #F55A5A;
+  height: 7%;
+  background: #ffffff;
+  overflow: hidden;
+}
