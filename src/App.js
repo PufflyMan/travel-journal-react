@@ -1,11 +1,18 @@
 import Header from "./Header";
+import React from "react";
+import data from './data';
+import Content from "./Content";
 
 function App() {
-  return (
-    <div className="App">
-      <Header />
-    </div>
-  );
+  <Header />
+  const content = data.map(item => {
+    return (
+      <Content 
+        item={item}
+      />
+    )
+  })    
+;
 }
 
 export default App;

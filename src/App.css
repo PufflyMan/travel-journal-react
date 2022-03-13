@@ -5,6 +5,13 @@
 #first-header {
   background-color: #F55A5A;
   height: 7%;
-  background: #ffffff;
+  color: #ffffff;
   overflow: hidden;
+  text-align: center;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;  
+  align-items: center;
 }
+
+
