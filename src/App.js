@@ -6,10 +6,10 @@ import Content from "./Content";
 function App() {
   <Header />
   const content = data.map(item => {
-    return (
-      <Content 
-        item={item}
-      />
+  return (
+    <Content 
+      item={item}
+    />
     )
   })    
 ;
