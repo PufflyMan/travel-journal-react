@@ -12,13 +12,14 @@ function App() {
         />
       )
     });
+    return (
 
-    <>
-        <div>
-          <Header />
-        </div>
-    
-    </>
+      <div>
+        <Header />
+        {content}
+      </div>
+  
+    )
 
 }
 
