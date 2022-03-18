@@ -14,4 +14,30 @@
   align-items: center;
 }
 
+#full-content {
+  justify-content: center;
+  display: flex;
+  flex-direction: row;
+  }
 
+#content {
+  display: flex;
+  flex-direction: column;
+  padding-left: 14px;
+}
+
+.desc {
+  width: 500px;
+}
+/* 
+.loc-name {
+  letter-spacing: 0.17em;
+}  */
+
+img {
+  object-fit: contain;
+}
+
+.pic {
+  border-radius: 5px;
+}
