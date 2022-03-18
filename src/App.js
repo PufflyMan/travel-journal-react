@@ -4,15 +4,22 @@ import data from './data';
 import Content from "./Content";
 
 function App() {
-  <Header />
-  const content = data.map(item => {
-  return (
-    <Content 
-      item={item}
-    />
-    )
-  })    
-;
+    const content = data.map(item => {
+      return (
+        <Content 
+          item={item}
+          
+        />
+      )
+    });
+
+    <>
+        <div>
+          <Header />
+        </div>
+    
+    </>
+
 }
 
 export default App;
